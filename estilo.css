@@ -1,0 +1,51 @@
+main{
+    background: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30pt;
+    color: white;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+  }
+
+.search{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+.error_box{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    height: 80;
+    width: 200px;
+    background-color: red;
+    padding: 20px;
+    border-radius: 15px;
+   
+}
+
+.info_box{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    color: black
+}
